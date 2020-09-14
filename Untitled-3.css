@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+.container{
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+}
+.aboutci{
+	color: #FFFF19;
+	padding-top: 200px;
+	font-family: 'Asap', sans-serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	margin-left: 100px;
+}
+.tusuabout{
+	line-height: 1.8em;
+	color: white;
+	font-family: 'Asap', sans-serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 18px;
+	width: 700px;
+	height:400px;
+	text-align: justify;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+.menu ul{
+	list-style-type: none;
+	text-align: center;
+}
+.menu ul li{
+	color: yellow;
+	display: inline-table;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+}
+.menu ul li a{
+	color: yellow;
+	text-decoration: none;
+	display: block;
+}
+.menu ul li a:hover{
+	background: yellow;
+	color: #333;
+}
+.header-main{
+	width: 100%;
+	height: 100px;
+	padding: 30px 80px;
+	box-sizing: border-box;
+	position: fixed;
+	z-index: 9999;
+}
+.logo{
+	width: 50%;
+	height: 50px;
+	float: left;
+}
+.logo img{
+	height: 30px;
+}
+.video{
+	margin-left: 800px;
+	margin-top: 300px;
+}
